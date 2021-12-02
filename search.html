@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
-<h2> rechercher un nom, pr&eacutenom, sauvetage, bateaux</h2>
+    <h2> Rechercher un nom, pr&eacutenom, sauvetage, bateaux</h2>
 
-<label for="site-search">recherche</label>
-<input type="search" id="site-search" name="in"
-       aria-label="Search through site content">
+        <label for="site-search">recherche</label>
+        <input type="search" id="in" name="in"
+            aria-label="Search through site content">
+        <button type="button" onclick="getValue();">Search</button>
 
-<button>Search</button>
-<script>
-    var input = document.getElementById("in").value;
-</script>
+        <script>
+            function getValue() {
+            var input = document.getElementById("in").value;
+            }
+        </script>
 
-</body>
+    </body>
 </html> 
